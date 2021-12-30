@@ -1,0 +1,18 @@
+theme: jekyll-theme-slate
+title: Maths Club
+description: EARLY ALPHA
+markdown: kramdown
+
+collections:
+  posts:
+    output: true
+    permalink: /posts/:title
+    
+plugins:
+  - jekyll-feed
+  
+kramdown:
+    math_engine: katex
+feed:
+  posts_limit: 50
+  excerpt_only: true
