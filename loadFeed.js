@@ -12,7 +12,9 @@ function makeBlogPost() {
 //fetches the posts from the rss feed
 function fetchPosts() {
   var request = new XMLHttpRequest();
-  const ATOM_FEED_URL = "https://maths-club.github.io/feed.xml";
+  const getUrl = window.location;
+  const baseUrl = getUrl.protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
+  const ATOM_FEED_URL = baseUrl + "/feed.xml";
   const ERROR_MSG = "Uh Oh: Cannot load posts at the moment :("
   request.open("GET", ATOM_FEED_URL, true);
 
@@ -41,6 +43,7 @@ function loadPosts(feedXml) {
     const title = post.getElementsByTagName("title")[0].textContent;
     let published = post.getElementsByTagName("published")[0].textContent;
     published = published.substring(0, 10).replaceAll("-","/") //cleans to YYYY-MM-DD
+    const author = post.getElementsByTagName("author")[0].textContent;
 
     let postElem = makeBlogPost(); //creates an empty textbox from the function above
 
@@ -48,7 +51,7 @@ function loadPosts(feedXml) {
     postElem.innerHTML = `
     <h3>${title}</h3>
     <div class=\"info\">
-        <span style="color: var(--muted-text-color)">${published}</span>
+        <span style="color: var(--muted-text-color)">By ${author} - ${published}</span>
     </div>
     <p>${excerpt}</p>
     <a class="btn btn-outline-primary btn-sm" role="button" href="${link}" style="border-color: var(--highlight-color); color: var(--highlight-color);">
