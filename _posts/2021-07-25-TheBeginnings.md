@@ -2,6 +2,7 @@
 title: The Beginnings
 excerpt: First actual blog post detailing the initial stages of the concept, and the group's progress so far
 author: Garv Shah
+layout: post
 ---
 {% include header.html %}
 

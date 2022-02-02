@@ -6,14 +6,32 @@ markdown: kramdown
 baseurl: "/blog"
 url: "https://the-nova-system.github.io"
 github: [metadata]
+permalink: pretty
+copyright: Garv Shah
+
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - vendor/bundle
+
+sass:
+  sass_dir: _sass
+  style: :compressed
 
 social-network-links:
   email: "gshah.6110@gmail.com"
   github: The-NOVA-System
 
-navbar-links:
-  Home: "https://the-nova-system.github.io/blog"
-  Website: "https://the-nova-system.github.io"
+nav:
+  - title: Home
+    url: https://the-nova-system.github.io/blog
+  - title: Website
+    url: https://the-nova-system.github.io
 
 collections:
   posts:
@@ -21,6 +39,9 @@ collections:
     permalink: /posts/:title
 
 plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
   - jekyll-feed
 
 kramdown:

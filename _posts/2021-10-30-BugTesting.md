@@ -2,6 +2,7 @@
 title: Bug Testing and Firebase Discussion
 excerpt: Polishing up
 author: Liam Shaw
+layout: post
 ---
 {% include header.html %}
 

@@ -2,6 +2,7 @@
 title: Collecting Data - Microsoft Forms
 excerpt: Verifying our community need
 author: Liam Shaw
+layout: post
 ---
 {% include header.html %}
 

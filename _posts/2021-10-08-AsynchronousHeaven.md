@@ -2,6 +2,7 @@
 title: Asynchronous Heaven
 excerpt: yayy, theming actually works now!
 author: Garv Shah
+layout: post
 ---
 {% include header.html %}
 

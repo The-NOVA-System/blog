@@ -2,6 +2,7 @@
 title: Time For Change
 excerpt: we've had to backtrack and rethink our whole idea
 author: Garv Shah
+layout: post
 ---
 {% include header.html %}
 

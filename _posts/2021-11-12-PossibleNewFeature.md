@@ -2,6 +2,7 @@
 title: A Possible New Feature 
 excerpt: Badge implementations  
 author: Natsuki Rogers
+layout: post
 ---
 {% include header.html %}
 

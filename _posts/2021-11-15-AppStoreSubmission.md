@@ -2,6 +2,7 @@
 title: App Store Submission (yay!)
 excerpt: i really need to start writing more blog posts
 author: Garv Shah
+layout: post
 ---
 {% include header.html %}
 

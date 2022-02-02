@@ -11,6 +11,7 @@ Each file must be started with the following structure:
 title: Insert Title
 excerpt: Insert Excerpt
 author: Insert Author
+layout: post
 ---
 {% include header.html %}
 ```

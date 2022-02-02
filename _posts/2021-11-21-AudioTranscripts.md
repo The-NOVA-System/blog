@@ -2,6 +2,7 @@
 title: Audio Transcripts
 excerpt: a collection of audio files
 author: The NOVA Team
+layout: post
 ---
 {% include header.html %}
 

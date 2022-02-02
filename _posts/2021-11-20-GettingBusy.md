@@ -2,6 +2,7 @@
 title: things are getting busy
 excerpt: woo things are getting busy
 author: Natsuki Rogers
+layout: post
 ---
 {% include header.html %}
 

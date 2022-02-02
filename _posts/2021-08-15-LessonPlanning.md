@@ -2,6 +2,7 @@
 title: Plannning our lessons
 excerpt: What we're gonna teach people
 author: Liam Shaw
+layout: post
 ---
 {% include header.html %}
 

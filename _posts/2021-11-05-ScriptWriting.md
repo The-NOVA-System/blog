@@ -2,6 +2,7 @@
 title: Script Writing
 excerpt: woo Script Writing
 author: Natsuki Rogers
+layout: post
 ---
 {% include header.html %}
 

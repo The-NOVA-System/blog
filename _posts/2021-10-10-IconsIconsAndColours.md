@@ -2,6 +2,7 @@
 title: Icons, Icons, and Colours
 excerpt: starting api integration and icons!
 author: Garv Shah
+layout: post
 ---
 {% include header.html %}
 

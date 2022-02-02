@@ -2,6 +2,7 @@
 title: Lesson Scripting
 excerpt: A short check in
 author: Liam Shaw
+layout: post
 ---
 {% include header.html %}
 

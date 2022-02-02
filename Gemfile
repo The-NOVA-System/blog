@@ -1,4 +1,10 @@
 source "https://rubygems.org"
+
+gem "jekyll-gist"
+gem "jekyll-paginate"
+gem "jekyll-seo-tag"
+gem "kramdown-math-katex"
+
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:

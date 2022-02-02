@@ -2,6 +2,7 @@
 title: EOYP Lessons
 excerpt: A useful compromise
 author: Liam Shaw
+layout: post
 ---
 {% include header.html %}
 

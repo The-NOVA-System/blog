@@ -2,6 +2,7 @@
 title: Looking Forwards
 excerpt: The EOYP and beyond
 author: Liam Shaw
+layout: post
 ---
 {% include header.html %}
 

@@ -2,6 +2,7 @@
 title: Launch date of the Microsoft Form
 excerpt: woo Launch date of the Microsoft Form
 author: Natsuki Rogers
+layout: post
 ---
 {% include header.html %}
 

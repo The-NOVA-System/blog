@@ -2,6 +2,7 @@
 title: Long Time no See
 excerpt: an update on progress
 author: Garv Shah
+layout: post
 ---
 {% include header.html %}
 

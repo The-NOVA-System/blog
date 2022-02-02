@@ -2,6 +2,7 @@
 title: Work on the powerpoint
 excerpt: woo Work on the powerpoint
 author: Natsuki Rogers
+layout: post
 ---
 {% include header.html %}
 

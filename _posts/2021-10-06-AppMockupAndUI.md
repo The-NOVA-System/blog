@@ -2,6 +2,7 @@
 title: App Mockup and UI
 excerpt: progress update on the app with some ui mockups
 author: Garv Shah
+layout: post
 ---
 {% include header.html %}
 

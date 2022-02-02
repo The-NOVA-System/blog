@@ -2,6 +2,7 @@
 title: Meeting with Mr Browning
 excerpt: woo Meeting with Mr Browning 
 author: Natsuki Rogers
+layout: post
 ---
 {% include header.html %}
 

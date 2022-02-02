@@ -2,6 +2,7 @@
 title: more script work
 excerpt: woo more script work
 author: Natsuki Rogers
+layout: post
 ---
 {% include header.html %}
 

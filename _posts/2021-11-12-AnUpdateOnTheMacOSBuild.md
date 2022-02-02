@@ -2,6 +2,7 @@
 title: An Update On the MacOS Build
 excerpt: Thought an update was needed
 author: Natsuki Rogers
+layout: post
 ---
 {% include header.html %}
 

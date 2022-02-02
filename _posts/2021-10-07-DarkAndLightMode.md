@@ -2,6 +2,7 @@
 title: Dark and Light Mode
 excerpt: why does theming cause so many issues ?!?
 author: Garv Shah
+layout: post
 ---
 {% include header.html %}
 

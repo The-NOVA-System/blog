@@ -2,6 +2,7 @@
 title: Developing the App
 excerpt: verifying the need and starting to create some resources
 author: Garv Shah
+layout: post
 ---
 {% include header.html %}
 

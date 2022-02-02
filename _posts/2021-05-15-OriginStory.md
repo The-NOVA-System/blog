@@ -2,6 +2,7 @@
 title: Origin Story
 excerpt: woo origin story
 author: Natsuki Rogers
+layout: post
 ---
 {% include header.html %}
 
